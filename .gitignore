@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.vscode/
+
+# Generated data and database
+data/raw/*
+!data/raw/agent_scenarios.csv
+!data/raw/policy_eval.csv
+data/clean/
+data/instamart.db
+
+# Generated outputs and checkpoints
+outputs/
+state/
+
+# Local Python tooling
+.pytest_cache/
